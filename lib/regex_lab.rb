@@ -8,7 +8,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   rarray = []
-  if text.match(/[un]|$[ing]/)
+  if text.match(/[un]|$[ing]\b/)
     rarray << text
   end
   rarray
